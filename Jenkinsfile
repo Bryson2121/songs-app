@@ -6,8 +6,8 @@ pipeline {
             steps {
                 echo 'This is the firsts successful test script'
                 '''
-                sh  "start": "npm start"
-                    "build": "npm run build"
+                sh  "start": "react-scripts start"
+                  
                   
                 '''
                 
