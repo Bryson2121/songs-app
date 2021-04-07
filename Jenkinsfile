@@ -5,7 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'This is the firsts successful test script'
-            
+                sh 'npm run build'
+              
                 
                       
           
