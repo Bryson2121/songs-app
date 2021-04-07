@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Success'
+                echo 'This is the firsts successful test script'
+                      
+          
             
         
             }
