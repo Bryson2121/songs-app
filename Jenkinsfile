@@ -5,7 +5,8 @@ pipeline {
                }
     stages {
         stage('Build') {
-            steps {when {
+            steps {
+                when {
             BRANCH_NAME = 'master'
             }
                 echo 'This is the firsts successful test script'
