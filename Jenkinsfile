@@ -11,15 +11,7 @@ pipeline {
             }
         }
     }
-            stage('test') {
-                steps {
-                    when {
-                    BRANCH_NAME = 'dev'
-                    
-                    }
-                
-                }
-            }
+           
         }
     
 
