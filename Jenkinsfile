@@ -12,6 +12,7 @@ pipeline {
 
             }
         }
+    }
             stage('test') {
                 steps {
                     when {
@@ -22,5 +23,5 @@ pipeline {
                 }
             }
         }
-    }
-}
+    
+
