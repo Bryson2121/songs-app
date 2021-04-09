@@ -13,7 +13,7 @@ pipeline {
                 echo 'This is the firsts successful test script'
                   sh 'npm install'
                 
-                stage('testing  dev'){
+                stage('testing'){
                     when {
                         expression {
                         BRANCH_NAME == 'Bryson2121-patch-1' || BRANCH_NAME == 'main'
