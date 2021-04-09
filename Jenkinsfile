@@ -16,7 +16,7 @@ pipeline {
                   sh 'npm run build'
             }
         }
-    }
+    
                 
                 stage('testing'){
                   
@@ -33,7 +33,7 @@ pipeline {
                   
                 }
                 
-
+    }
             }
     
 
