@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'This is the firsts successful test script'
                   sh 'npm install'
+                  sh 'npm run build'
                 
                 stage('testing'){
                     when {
@@ -20,7 +21,7 @@ pipeline {
                         }
                     }
                 
-                    sh 'npm run build'
+                  
                 }
                 
 
