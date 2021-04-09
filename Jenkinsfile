@@ -19,10 +19,15 @@ pipeline {
     }
                 
                 stage('testing'){
+                  
                     when {
                         expression {
                         BRANCH_NAME == 'Bryson2121-patch-1' || BRANCH_NAME == 'main'
                         }
+                    }
+                    steps {
+                    echo 'this is the testing stage'
+                    
                     }
                 
                   
