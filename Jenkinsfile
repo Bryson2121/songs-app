@@ -9,6 +9,7 @@ pipeline {
                 echo 'This is the firsts successful test script'
                   sh 'npm install'
                   sh 'npm run build'
+                helloWorld()
             }
         }
     
